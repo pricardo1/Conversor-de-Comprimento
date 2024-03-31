@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de unidade de cumprimento</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversor de Unidades</h1>
+        <input type="number" id="inputMetros" placeholder="Metros">
+        <label for="unidade"></label>
+        <select placeholder="Unidades"  id="unidade">
+            <option value="Unidades" selected>Unidades</option>
+            <option value="jardas">Jardas</option>
+            <option value="pés">Pés</option>
+            <option value="polegadas">Polegadas</option>
+            <option value="milhas">Milhas</option>
+        </select>
+        
+        <section class="fakeInput">
+            <p id="resultado" placeholder="Conversão"></p>
+        </section>
+        
+        <button class="btn">Converter</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
